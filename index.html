@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub-Search</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1>GitHub Search repositories</h1>
+        <form class="search-git">
+          <input
+            type="search"
+            name="name"
+            id="search"
+            class="search-git__search"
+          />
+          <button id="btn" class="search-git__btn">Поиск</button>
+        </form>
+        <div class="error"></div>
+        <div class="result">
+          <ul class="repositories"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
